@@ -1,0 +1,20 @@
+{
+  "name": "blockify/breadcrumbs",
+  "description": "Lightweight, customizable breadcrumbs block for WordPress.",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Lee Anthony",
+      "email": "info@blockifywp.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "files": [
+      "blockify-breadcrumbs.php"
+    ]
+  },
+  "require": {
+    "php": "^7.4 || ^8.0"
+  }
+}
