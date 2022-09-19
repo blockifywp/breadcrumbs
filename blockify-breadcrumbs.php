@@ -35,7 +35,7 @@ use function add_action;
 const NS = __NAMESPACE__ . '\\';
 const DS = DIRECTORY_SEPARATOR;
 
-add_action( 'after_setup_theme', NS . 'register' );
+add_action( 'init', NS . 'register' );
 /**
  * Registers the block.
  *
